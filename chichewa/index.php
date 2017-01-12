@@ -6,7 +6,7 @@
  * Time: 4:17 PM
  */
 
-$chichewaResponse = "CON Sankhani Chochita?";
-$chichewaResponse .= "1. Lembestani";
-$chichewaResponse .= "2. Fotokozani Zizindikilo Zoopsya";
-$chichewaResponse .= "3. Fusani";
+$chichewaResponse = "CON Sankhani Chochita? \n\n";
+$chichewaResponse .= "1. Lembestani \n";
+$chichewaResponse .= "2. Fotokozani Zizindikilo Zoopsya \n";
+$chichewaResponse .= "3. Fusani \n";
