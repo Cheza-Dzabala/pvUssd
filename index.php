@@ -41,13 +41,12 @@ if ($text == "") {
     $response = "CON Welcome to A.D.R.I.S \n";
     $response .= "1. English \n";
     $response .= "2. Chichewa";
-} /* First Level Logic */
+}
+
+/* First Level Logic */
 else if ($text == "1") {
     $response = $englishResponse;
 } else if ($text == "2") {
-    // Business logic for first level response
-    // This is a terminal request. Note how we start the response with END
-    //$response = "END Your phone number is $phoneNumber";
     $response = $chichewaResponse;
 }
 
