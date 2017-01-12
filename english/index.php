@@ -6,6 +6,7 @@
  * Time: 3:40 PM
  */
     include "register/index.php";
+    include "report/index.php";
 
     /* First Level Logic */
     $englishResponse = "CON What would you like to do? \n";
