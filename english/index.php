@@ -8,9 +8,11 @@
     include "register/index.php";
 
     /* First Level Logic */
-    $englishResponse = "CON What would you like to do? \n";
-    $englishResponse .= "1. Register Yourself\n";
-    $englishResponse .= "2. Report ADR \n";
-    $englishResponse .= "3. Enquire \n";
+    else if ( $text == "1" ) {
+        $response = "CON What would you like to do? \n";
+        $response .= "1. Register Yourself\n";
+        $response .= "2. Report ADR \n";
+        $response .= "3. Enquire \n";
+    }
 
 ?>

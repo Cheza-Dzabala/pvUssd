@@ -48,9 +48,7 @@ if ( $text == "" ) {
 
 
 /* First Level Logic */
-else if ( $text == "1" ) {
-    $response = $englishResponse;
-}
+
 
 else if($text == "2") {
     // Business logic for first level response
